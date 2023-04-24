@@ -1,0 +1,12 @@
+{
+    "vendor_tb": {
+        "column": {
+            "id": true,
+            "name": true,
+            "description": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    }
+}

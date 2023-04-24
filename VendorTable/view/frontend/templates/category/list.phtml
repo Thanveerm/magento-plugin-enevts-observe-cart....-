@@ -1,0 +1,13 @@
+<?php
+$product = $block->getProduct();
+
+if ($product !== null) {
+    $attrData = $product->getData('Vendor_Name');
+?>
+
+<h3><?php echo $attrData; ?></h3>
+
+<?php
+}
+?>
+

@@ -1,0 +1,7 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="product.info.main">
+            <block class="Codilar\VendorTable\Block\CustomAttribute" name="cloth.material" template="Codilar_VendorTable::product/view/cloth_material.phtml" after="product.info.price"/>
+        </referenceContainer>
+    </body>
+</page>
